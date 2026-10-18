@@ -1,0 +1,30 @@
+{
+  "format": "veyra-tiny-gru-v1",
+  "trained_from_scratch": true,
+  "seed": 20261017,
+  "epochs": 12,
+  "tokens": 798,
+  "corpus_chars": 3967,
+  "config": {
+    "embedding": 48,
+    "hidden": 64,
+    "block": 40,
+    "layers": 1
+  },
+  "training_losses": [
+    5.6588,
+    4.9258,
+    4.3883,
+    3.9575,
+    3.581,
+    3.1924,
+    2.8024,
+    2.4374,
+    2.1046,
+    1.8002,
+    1.5377,
+    1.3245
+  ],
+  "training_seconds": 0.89,
+  "device": "CPU"
+}

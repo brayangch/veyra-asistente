@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: veyra-public
+    runtime: python
+    plan: free
+    buildCommand: python -m pip install -r veyra-render-free/requirements.txt
+    startCommand: python veyra-render-free/app.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.4
