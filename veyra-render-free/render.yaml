@@ -9,3 +9,5 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.13.4
+      - key: VEYRA_PUBLIC_URL
+        value: https://veyra-public.onrender.com
